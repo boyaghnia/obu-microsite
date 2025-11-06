@@ -69,40 +69,161 @@
                     <li>
                         <a
                             href="/"
-                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors"
                             aria-current="page"
                         >
                             Beranda
                         </a>
                     </li>
-                    <li>
-                        <a
-                            href="/profil"
-                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+
+                    <!-- Profil Dropdown -->
+                    <li class="relative dropdown-item">
+                        <button
+                            class="flex items-center justify-between w-full py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors dropdown-toggle"
+                            data-dropdown="dropdown-profil"
                         >
                             Profil
-                        </a>
+                            <svg
+                                class="w-4 h-4 ml-1 transition-transform duration-200 dropdown-arrow"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"
+                                ></path>
+                            </svg>
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div
+                            id="dropdown-profil"
+                            class="dropdown-menu hidden lg:absolute lg:top-full lg:left-0 lg:mt-2 w-full lg:w-48 z-50"
+                        >
+                            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+                                    <li>
+                                        <a
+                                            href="/profil/sejarah"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Sejarah
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/profil/visi-misi"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Visi & Misi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/profil/struktur-organisasi"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Struktur Organisasi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/profil/tupoksi"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Tugas Pokok & Fungsi
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a
-                            href="/#layanan"
-                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+
+                    <!-- Layanan Dropdown -->
+                    <li class="relative dropdown-item">
+                        <button
+                            class="flex items-center justify-between w-full py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors dropdown-toggle"
+                            data-dropdown="dropdown-layanan"
                         >
                             Layanan
-                        </a>
+                            <svg
+                                class="w-4 h-4 ml-1 transition-transform duration-200 dropdown-arrow"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"
+                                ></path>
+                            </svg>
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div
+                            id="dropdown-layanan"
+                            class="dropdown-menu hidden lg:absolute lg:top-full lg:left-0 lg:mt-2 w-full lg:w-56 z-50"
+                        >
+                            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+                                    <li>
+                                        <a
+                                            href="/layanan/izin-penerbangan"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Izin Penerbangan
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/layanan/sertifikasi"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Sertifikasi Bandara
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/layanan/pengawasan"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Pengawasan & Inspeksi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/layanan/informasi"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Informasi Penerbangan
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/layanan/pengaduan"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Pengaduan Masyarakat
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
+
                     <li>
                         <a
                             href="/berita"
-                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors"
                         >
                             Berita
                         </a>
                     </li>
                     <li>
                         <a
-                            href="#wilayahkerja"
-                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                            href="#wilayah-kerja"
+                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors"
                         >
                             Wilayah Kerja
                         </a>
@@ -110,18 +231,82 @@
                     <li>
                         <a
                             href="/galeri"
-                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors"
                         >
                             Galeri
                         </a>
                     </li>
-                    <li>
-                        <a
-                            href="#"
-                            class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+
+                    <!-- PPID Dropdown -->
+                    <li class="relative dropdown-item">
+                        <button
+                            class="flex items-center justify-between w-full py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors dropdown-toggle"
+                            data-dropdown="dropdown-ppid"
                         >
                             PPID
-                        </a>
+                            <svg
+                                class="w-4 h-4 ml-1 transition-transform duration-200 dropdown-arrow"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"
+                                ></path>
+                            </svg>
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div
+                            id="dropdown-ppid"
+                            class="dropdown-menu hidden lg:absolute lg:top-full lg:left-0 lg:mt-2 w-full lg:w-56 z-50"
+                        >
+                            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+                                    <li>
+                                        <a
+                                            href="/ppid/profil"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Profil PPID
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/ppid/informasi-berkala"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Informasi Berkala
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/ppid/informasi-serta-merta"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Informasi Serta Merta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/ppid/informasi-setiap-saat"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Informasi Setiap Saat
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/ppid/permohonan-informasi"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Permohonan Informasi
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -129,10 +314,36 @@
     </nav>
 </header>
 
+<style>
+    /* Dropdown animations */
+    .dropdown-menu {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition:
+            opacity 0.2s ease,
+            transform 0.2s ease;
+        pointer-events: none;
+    }
+
+    .dropdown-menu.show {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    @media (max-width: 1023px) {
+        .dropdown-menu {
+            transform: none;
+        }
+    }
+</style>
+
 <script>
     let lastScrollTop = 0;
     let ticking = false;
     const mainNavbar = document.getElementById('main-navbar');
+    let openDropdown = null;
+    let closeTimeout = null;
 
     function updateNavbar(scrollTop) {
         if (scrollTop > 50) {
@@ -156,5 +367,186 @@
             });
             ticking = true;
         }
+    });
+
+    // Modern Dropdown Management
+    function showDropdown(dropdown) {
+        if (closeTimeout) {
+            clearTimeout(closeTimeout);
+            closeTimeout = null;
+        }
+
+        // Close other dropdowns
+        document.querySelectorAll('.dropdown-menu').forEach((menu) => {
+            if (menu !== dropdown) {
+                menu.classList.remove('show');
+                menu.classList.add('hidden');
+            }
+        });
+
+        // Show dropdown
+        dropdown.classList.remove('hidden');
+        setTimeout(() => {
+            dropdown.classList.add('show');
+        }, 10);
+
+        // Rotate arrow
+        const button = dropdown.previousElementSibling;
+        if (button) {
+            const arrow = button.querySelector('.dropdown-arrow');
+            if (arrow) {
+                arrow.style.transform = 'rotate(180deg)';
+            }
+        }
+
+        openDropdown = dropdown;
+    }
+
+    function hideDropdown(dropdown) {
+        if (!dropdown) return;
+
+        dropdown.classList.remove('show');
+
+        // Reset arrow
+        const button = dropdown.previousElementSibling;
+        if (button) {
+            const arrow = button.querySelector('.dropdown-arrow');
+            if (arrow) {
+                arrow.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        setTimeout(() => {
+            dropdown.classList.add('hidden');
+        }, 200);
+
+        if (openDropdown === dropdown) {
+            openDropdown = null;
+        }
+    }
+
+    function hideAllDropdowns() {
+        document.querySelectorAll('.dropdown-menu').forEach((menu) => {
+            hideDropdown(menu);
+        });
+    }
+
+    // Desktop: Mouseenter/Mouseleave behavior
+    if (window.innerWidth >= 1024) {
+        document.querySelectorAll('.dropdown-item').forEach((item) => {
+            item.addEventListener('mouseenter', function () {
+                const button = this.querySelector('.dropdown-toggle');
+                const dropdownId = button.getAttribute('data-dropdown');
+                const dropdown = document.getElementById(dropdownId);
+
+                if (dropdown) {
+                    showDropdown(dropdown);
+                }
+            });
+
+            item.addEventListener('mouseleave', function () {
+                const button = this.querySelector('.dropdown-toggle');
+                const dropdownId = button.getAttribute('data-dropdown');
+                const dropdown = document.getElementById(dropdownId);
+
+                if (dropdown) {
+                    closeTimeout = setTimeout(() => {
+                        hideDropdown(dropdown);
+                    }, 200);
+                }
+            });
+
+            // Keep dropdown open when hovering over it
+            const button = item.querySelector('.dropdown-toggle');
+            const dropdownId = button.getAttribute('data-dropdown');
+            const dropdown = document.getElementById(dropdownId);
+
+            if (dropdown) {
+                dropdown.addEventListener('mouseenter', function () {
+                    if (closeTimeout) {
+                        clearTimeout(closeTimeout);
+                        closeTimeout = null;
+                    }
+                });
+
+                dropdown.addEventListener('mouseleave', function () {
+                    closeTimeout = setTimeout(() => {
+                        hideDropdown(this);
+                    }, 200);
+                });
+            }
+        });
+    }
+
+    // Mobile: Click behavior
+    document.querySelectorAll('.dropdown-toggle').forEach((button) => {
+        button.addEventListener('click', function (e) {
+            const isMobile = window.innerWidth < 1024;
+
+            if (isMobile) {
+                e.preventDefault();
+                const dropdownId = this.getAttribute('data-dropdown');
+                const dropdown = document.getElementById(dropdownId);
+
+                if (dropdown) {
+                    if (dropdown.classList.contains('show')) {
+                        hideDropdown(dropdown);
+                    } else {
+                        showDropdown(dropdown);
+                    }
+                }
+            }
+        });
+    });
+
+    // Handle mobile menu toggle
+    const mobileMenuButton = document.querySelector('[data-collapse-toggle="mobile-menu-2"]');
+    const mobileMenu = document.getElementById('mobile-menu-2');
+
+    if (mobileMenuButton) {
+        mobileMenuButton.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden');
+
+            // Toggle hamburger icon
+            const hamburgerIcon = this.querySelector('svg:first-of-type');
+            const closeIcon = this.querySelector('svg:last-of-type');
+
+            hamburgerIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+    }
+
+    // Close dropdowns and mobile menu when clicking outside
+    document.addEventListener('click', function (event) {
+        const isMobile = window.innerWidth < 1024;
+
+        // Close dropdowns if clicking outside
+        if (!event.target.closest('.dropdown-item')) {
+            hideAllDropdowns();
+        }
+
+        // Close mobile menu if clicking outside
+        if (isMobile && mobileMenu && !mobileMenu.classList.contains('hidden')) {
+            if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+
+                const hamburgerIcon = mobileMenuButton.querySelector('svg:first-of-type');
+                const closeIcon = mobileMenuButton.querySelector('svg:last-of-type');
+                hamburgerIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+
+                hideAllDropdowns();
+            }
+        }
+    });
+
+    // Re-initialize on window resize
+    let resizeTimeout;
+    window.addEventListener('resize', function () {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            hideAllDropdowns();
+            location.reload(); // Reload to reinitialize event listeners for new screen size
+        }, 250);
     });
 </script>
