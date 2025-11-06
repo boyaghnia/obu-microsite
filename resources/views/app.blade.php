@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
         @vite("resources/js/app.js")
         <title>Microsite OBU</title>
     </head>
-    <body>
+    <body class="overflow-x-hidden">
         <header>@include("section-header")</header>
 
         <main>

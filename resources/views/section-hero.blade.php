@@ -4,10 +4,10 @@
         <img src="{{ asset("img/test1.png") }}" alt="" class="h-200 w-200 object-cover opacity-30" />
     </div>
 
-    <div class="z-49 absolute left-20 bottom-35 text-white w-full max-w-7xl px-4">
-        <h2 class="text-5xl text-bold mb-2 shadow-lg">Selamat Datang di Website Resmi</h2>
-        <p class="text-3xl shadow-md">Kantor Otoritas Bandar Udara</p>
-        <p class="text-3xl shadow-md">Wilayah XII - Bandung</p>
+    <div class="z-49 absolute left-4 md:left-20 bottom-20 md:bottom-35 text-white w-full max-w-7xl px-4">
+        <h2 class="text-3xl md:text-5xl font-bold mb-2 shadow-lg">Selamat Datang di Website Resmi</h2>
+        <p class="text-xl md:text-3xl shadow-md">Kantor Otoritas Bandar Udara</p>
+        <p class="text-xl md:text-3xl shadow-md">Wilayah XII - Bandung</p>
     </div>
 
     <!-- Hero Image Slider -->

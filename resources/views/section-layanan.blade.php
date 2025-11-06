@@ -1,4 +1,4 @@
-<section id="layanan" class="bg-white dark:bg-gray-800 py-20 flex flex-col items-center justify-center">
+<section id="layanan" class="bg-white dark:bg-gray-800 py-20 flex flex-col items-center justify-center overflow-hidden">
     <div class="max-w-7xl w-full px-4">
         <!-- Header -->
         <div class="text-center mb-16 layanan-header">

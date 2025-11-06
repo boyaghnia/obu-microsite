@@ -1,4 +1,4 @@
-<section id="profil" class="bg-white dark:bg-gray-800 flex items-center justify-center py-20">
+<section id="profil" class="bg-white dark:bg-gray-800 flex items-center justify-center py-20 overflow-hidden">
     <div class="flex flex-col items-center gap-8 max-w-7xl px-4 text-gray-800 dark:text-white">
         <div class="">
             <a href="#" class="flex items-center gap-3">

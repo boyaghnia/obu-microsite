@@ -1,4 +1,7 @@
-<section id="mitra" class="bg-white dark:bg-gray-900 flex flex-col items-center justify-center py-8 gap-8">
+<section
+    id="mitra"
+    class="bg-white dark:bg-gray-900 flex flex-col items-center justify-center py-8 gap-8 overflow-hidden"
+>
     <div class="max-w-7xl w-full px-4">
         <!-- Slider Container -->
         <div class="relative overflow-hidden">

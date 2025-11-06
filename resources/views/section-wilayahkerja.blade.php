@@ -1,4 +1,4 @@
-<section id="wilayah-kerja" class="bg-gray-50 dark:bg-gray-800 py-20">
+<section id="wilayah-kerja" class="bg-gray-50 dark:bg-gray-800 py-20 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4">
         <!-- Header -->
         <div class="text-center mb-12">

@@ -1,4 +1,4 @@
-<section id="berita" class="bg-white dark:bg-gray-900 py-20">
+<section id="berita" class="bg-white dark:bg-gray-900 py-20 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4">
         <!-- Header -->
         <div class="text-center mb-12">
