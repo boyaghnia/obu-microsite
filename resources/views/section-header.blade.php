@@ -105,6 +105,14 @@
                                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
                                     <li>
                                         <a
+                                            href="/profil"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
+                                        >
+                                            Profil
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
                                             href="/profil/sejarah"
                                             class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
                                         >
@@ -129,10 +137,10 @@
                                     </li>
                                     <li>
                                         <a
-                                            href="/profil/tupoksi"
+                                            href="/profil/tugas-fungsi"
                                             class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
                                         >
-                                            Tugas Pokok & Fungsi
+                                            Tugas & Fungsi
                                         </a>
                                     </li>
                                 </ul>
@@ -142,74 +150,14 @@
 
                     <!-- Layanan Dropdown -->
                     <li class="relative dropdown-item">
-                        <button
-                            class="flex items-center justify-between w-full py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors dropdown-toggle"
-                            data-dropdown="dropdown-layanan"
-                        >
-                            Layanan
-                            <svg
-                                class="w-4 h-4 ml-1 transition-transform duration-200 dropdown-arrow"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg"
+                        <a href="/#layanan">
+                            <button
+                                class="flex items-center justify-between w-full py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors dropdown-toggle"
+                                data-dropdown="dropdown-layanan"
                             >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"
-                                ></path>
-                            </svg>
-                        </button>
-                        <!-- Dropdown Menu -->
-                        <div
-                            id="dropdown-layanan"
-                            class="dropdown-menu hidden lg:absolute lg:top-full lg:left-0 lg:mt-2 w-full lg:w-56 z-50"
-                        >
-                            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden">
-                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
-                                    <li>
-                                        <a
-                                            href="/layanan/izin-penerbangan"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Izin Penerbangan
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/layanan/sertifikasi"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Sertifikasi Bandara
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/layanan/pengawasan"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Pengawasan & Inspeksi
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/layanan/informasi"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Informasi Penerbangan
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/layanan/pengaduan"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Pengaduan Masyarakat
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                                Layanan
+                            </button>
+                        </a>
                     </li>
 
                     <li>
@@ -222,7 +170,7 @@
                     </li>
                     <li>
                         <a
-                            href="#wilayah-kerja"
+                            href="/#wilayah-kerja"
                             class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors"
                         >
                             Wilayah Kerja
@@ -239,74 +187,14 @@
 
                     <!-- PPID Dropdown -->
                     <li class="relative dropdown-item">
-                        <button
-                            class="flex items-center justify-between w-full py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors dropdown-toggle"
-                            data-dropdown="dropdown-ppid"
-                        >
-                            PPID
-                            <svg
-                                class="w-4 h-4 ml-1 transition-transform duration-200 dropdown-arrow"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg"
+                        <a href="/ppid">
+                            <button
+                                class="flex items-center justify-between w-full py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-blue-600 transition-colors dropdown-toggle"
+                                data-dropdown="dropdown-ppid"
                             >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"
-                                ></path>
-                            </svg>
-                        </button>
-                        <!-- Dropdown Menu -->
-                        <div
-                            id="dropdown-ppid"
-                            class="dropdown-menu hidden lg:absolute lg:top-full lg:left-0 lg:mt-2 w-full lg:w-56 z-50"
-                        >
-                            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden">
-                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
-                                    <li>
-                                        <a
-                                            href="/ppid/profil"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Profil PPID
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/ppid/informasi-berkala"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Informasi Berkala
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/ppid/informasi-serta-merta"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Informasi Serta Merta
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/ppid/informasi-setiap-saat"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Informasi Setiap Saat
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/ppid/permohonan-informasi"
-                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 transition-colors"
-                                        >
-                                            Permohonan Informasi
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                                PPID
+                            </button>
+                        </a>
                     </li>
                 </ul>
             </div>

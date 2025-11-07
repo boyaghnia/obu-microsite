@@ -17,7 +17,7 @@
 
         <!-- Content -->
         <div class="relative z-10 text-center text-white px-4">
-            <h1 class="text-5xl md:text-6xl font-bold mb-4">Profil Kami</h1>
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Sejarah</h1>
             <p class="text-xl text-gray-300">Kantor Otoritas Bandar Udara Wilayah XII - Bandung</p>
         </div>
     </section>
@@ -26,7 +26,7 @@
     @include(
         "section-breadcrumb",
         [
-            "breadcrumbs" => [["label" => "Profil"]],
+            "breadcrumbs" => [["label" => "Profil", "url" => "/profil"], ["label" => "Sejarah"]],
         ]
     )
 
@@ -53,7 +53,7 @@
                             <!-- Profil -->
                             <a
                                 href="/profil"
-                                class="flex items-center gap-3 px-4 py-3 rounded-lg bg-yellow-500 text-white font-medium transition-all duration-300"
+                                class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-yellow-50 dark:hover:bg-gray-700 hover:text-yellow-600 dark:hover:text-yellow-500 transition-all duration-300"
                             >
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path
@@ -68,7 +68,7 @@
                             <!-- Sejarah -->
                             <a
                                 href="/profil/sejarah"
-                                class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-yellow-50 dark:hover:bg-gray-700 hover:text-yellow-600 dark:hover:text-yellow-500 transition-all duration-300"
+                                class="flex items-center gap-3 px-4 py-3 rounded-lg bg-yellow-500 text-white font-medium transition-all duration-300"
                             >
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path
@@ -137,11 +137,11 @@
 
                 <!-- Main Content -->
                 <div class="lg:col-span-3">
-                    <!-- Profil -->
+                    <!-- Sejarah -->
                     <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg transition-all duration-300">
                         <div class="flex items-center gap-3 mb-6">
                             <div class="w-1 h-8 bg-yellow-500 rounded-full"></div>
-                            <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Profil</h2>
+                            <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Sejarah</h2>
                         </div>
                         <p class="font-semibold mb-4 text-gray-700 dark:text-gray-300">
                             Kantor Otoritas Bandar Udara Wilayah XII - Bandung

@@ -22,6 +22,14 @@
         </div>
     </section>
 
+    <!-- Breadcrumb -->
+    @include(
+        "section-breadcrumb",
+        [
+            "breadcrumbs" => [["label" => "Galeri Foto"]],
+        ]
+    )
+
     <!-- Main Content -->
     <section class="bg-gray-800 dark:bg-gray-900 py-20">
         <div class="max-w-7xl mx-auto px-4">

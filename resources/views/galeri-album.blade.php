@@ -1,31 +1,18 @@
 @extends("app")
 
 @section("content")
-    <!-- Breadcrumb -->
-    <section class="bg-gray-800 dark:bg-gray-900 py-6 border-b border-gray-700 pt-32">
-        <div class="max-w-7xl mx-auto px-4">
-            <nav class="flex items-center space-x-2 text-sm">
-                <a href="/" class="text-blue-500 hover:text-blue-400 transition-colors">Home</a>
-                <svg class="w-4 h-4 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                        fill-rule="evenodd"
-                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                        clip-rule="evenodd"
-                    ></path>
-                </svg>
-                <a href="/galeri" class="text-blue-500 hover:text-blue-400 transition-colors">Galeri</a>
-                <svg class="w-4 h-4 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                        fill-rule="evenodd"
-                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                        clip-rule="evenodd"
-                    ></path>
-                </svg>
-                <span class="text-gray-400">Peringatan Hari Perhubungan Nasional 2025</span>
-            </nav>
-        </div>
-    </section>
-
+    <div class="pt-24 bg-gray-900">
+        <!-- Breadcrumb -->
+        @include(
+            "section-breadcrumb",
+            [
+                "breadcrumbs" => [
+                    ["label" => "Galeri Foto", "url" => "/galeri"],
+                    ["label" => "Peringatan Hari Perhubungan Nasional 2025"],
+                ],
+            ]
+        )
+    </div>
     <!-- Album Header -->
     <section class="bg-gray-800 dark:bg-gray-900 py-12">
         <div class="max-w-7xl mx-auto px-4">
