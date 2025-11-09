@@ -1,6 +1,9 @@
 import './bootstrap';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Alpine from 'alpinejs';
+window.Alpine = Alpine;
+Alpine.start();
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);

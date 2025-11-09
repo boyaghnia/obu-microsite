@@ -54,7 +54,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Profil -->
                     <a
-                        href="#"
+                        href="/ppid/profil"
                         class="group bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-500 h-full min-h-40"
                     >
                         <div class="flex items-start gap-4">
